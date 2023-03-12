@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main </title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1031969896386539641/1083855520387055646/8cx.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="🥊">
+    <meta property="og:description" content="Owned by IOC">
+    <meta property="og:image" content="https://cdn.discordapp.com/avatars/847565014877470760/08178eb13254fbda30a70b431557325a.webp?size=4096">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cxuic.000webhostapp.com/Website/">
+    <style>
+      body {
+        background-image: url('https://images4.alphacoders.com/125/1254590.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #FFFFFF;
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .fade-out {
+        animation: fadeOut 1s ease-in-out forwards;
+      }
+
+      @keyframes fadeOut {
+        0% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 0;
+          display: none;
+        }
+      }
+
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: pulse 2s ease-in-out infinite;
+      }
+
+      button {
+        background-color: #000000;
+        color: #BA55D3;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(255, 20, 147, 0.8);
+        text-shadow: 0 0 10px rgba(255, 20, 147, 0.8);
+        transition: all 0.2s ease-in-out;
+        margin: 10px;
+      }
+
+      button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+
+      .info {
+        text-transform: capitalize;
+        padding-top: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        text-shadow: 0 0 10px #FF1493, 0 0 20px #FF1493, 0 0 30px #FF1493, 0 0 40px #FF1493, 0 0 50px #FF1493, 0 0 60px #FF1493, 0 0 70px #FF1493;
+      }
+
+      h1 {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        font-size: 4rem;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 20px #BA55D3;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+
+        50% {
+          transform: scale(1.2);
+        }
+
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <h1>IOC <br>
+        <br>About Me:
+      </h1>
+      <button onclick="document.body.classList.add('fade-out'); setTimeout(function() { window.location.href='https://cxuic.000webhostapp.com/Website/Bio'; }, 1000)">Information</button>
+      <button onclick="document.body.classList.add('fade-out'); setTimeout(function() { window.location.href='https://cxuic.000webhostapp.com/Website/Scripts'; }, 1000)">Scripts</button>
+      <div class="info">Owned by IOC </div>
+    </div>
+  </body>
+</html>
+<script type="text/javascript">
+  document.oncontextmenu = function() {
+    return false;
+  }
+</script>

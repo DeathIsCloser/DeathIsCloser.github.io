@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scripts
+    </title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1031969896386539641/1083855520387055646/8cx.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="🥊">
+    <meta property="og:description" content="Owned by IOC">
+    <meta property="og:image" content="https://cdn.discordapp.com/avatars/847565014877470760/08178eb13254fbda30a70b431557325a.webp?size=4096">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cxuic.000webhostapp.com/Website/">
+    <style>
+      body {
+        background-image: url('https://images4.alphacoders.com/125/1254590.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-family: monospace;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        font-size: 3.5rem;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.2), 0 0 60px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+      button {
+        background: linear-gradient(to right, rgba(255, 0, 255, 0.75), rgba(255, 0, 255, 0.75)), #000000;
+        color: #FFFFFF;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.2s ease-in-out;
+        margin-bottom: 20px;
+        display: block;
+        width: 300px;
+        text-align: center;
+      }
+      button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        background: linear-gradient(to right, rgba(255, 0, 255, 1), rgba(255, 0, 255, 1)), #000000;
+      }
+      .info {
+        text-transform: capitalize;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        color: #fff;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: pulse 3s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .arrow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 20px;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #fff;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.2), 0 0 60px rgba(0, 0, 0, 0.1);
+      }
+      @media only screen and (max-width: 600px) {
+        h1 {
+          font-size: 2.5rem;
+        }
+        button {
+          width: 200px;
+          font-size: 1rem;
+        }
+        .info {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Scripts
+      </h1>
+      <button onclick="window.location.href='https://cxuic.000webhostapp.com/Website/Loadstrings/DarkBubbleChat'">Dark Chat
+      </button>
+      <div class="info">
+        <p>^
+        </p>
+      </div>
+    </div>
+    <a href="https://cxuic.000webhostapp.com/Website/IOC" class="arrow">↑
+    </a>
+  </body>
+</html>
+
+<script type="text/javascript">
+    document.oncontextmenu = function() {
+        return false;
+    }
+</script>

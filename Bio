@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Me
+    </title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1031969896386539641/1083855520387055646/8cx.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="🥊">
+    <meta property="og:description" content="Owned by IOC">
+    <meta property="og:image" content="https://cdn.discordapp.com/avatars/847565014877470760/08178eb13254fbda30a70b431557325a.webp?size=4096">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cxuic.000webhostapp.com/Website/">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+          body {
+            background-image: url('https://images4.alphacoders.com/125/1254590.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-size: 1.5rem;
+            text-shadow: 0 0 10px #FFFFFF;
+          }
+          .button {
+            background-color: #000000;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+          }
+          .button:hover {
+            cursor: pointer;
+            background-color: #1c1c1c;
+            animation: pulse 1s infinite;
+          }
+          @keyframes pulse {
+            0% {
+              box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+            }
+            70% {
+              box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+            }
+            100% {
+              box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+            }
+          }
+          .back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 20px;
+            font-size: 2rem;
+            color: #FFFFFF;
+            text-decoration: none;
+            text-shadow: 0 0 10px #FFFFFF;
+          }
+          .back:hover {
+            text-decoration: underline;
+          }
+          .icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+          }
+          .logo {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+          }
+          h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+          }
+          p {
+            line-height: 1.5;
+            margin-bottom: 20px;
+          }
+          a {
+            text-decoration: none;
+            color: #FFFFFF;
+            text-shadow: 0 0 10px #FFFFFF;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+    </style>
+</head>
+
+<body>
+    <a href="https://cxuic.000webhostapp.com/Website/IOC" class="back">&larr;
+    </a>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+        <img class="logo" src="https://cdn.discordapp.com/avatars/847565014877470760/08178eb13254fbda30a70b431557325a.webp?size=4096" alt="PFP">
+        <h1>Biography
+        </h1>
+        <p>Hello! People know me as "IOC" and "wkZ".
+            <br> I code in Lua and I am currently learning HTML.
+            <br> I have an admin script that goes by the name "8CX", if you want to buy, check out my links!
+            <br> For more information: [IOC#0005]
+        </p>
+        <div>
+            <a href="https://www.roblox.com/users/4329626336/profile" target="_blank">
+                <button class="button">
+            <img class="icon" src="https://1000logos.net/wp-content/uploads/2017/07/Color-Roblox-Logo.png">
+          </button>
+            </a>
+            <a href="https://discord.gg/uhMVAExh3G" target="_blank">
+                <button class="button">
+            <img class="icon" src="https://cdn.discordapp.com/attachments/1031969896386539641/1083855520387055646/8cx.png">
+          </button>
+            </a>
+        </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    document.oncontextmenu = function() {
+        return false;
+    }
+</script>

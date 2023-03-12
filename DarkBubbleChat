@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background-color: black;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        margin-top: 50vh;
+        transform: translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      getgenv()["Config"] = {
+      <br>
+      BubbleColor = Color3["fromRGB"](0, 0, 0); 
+      <br>
+      TextColor = Color3["fromRGB"](255, 255, 255);
+      <br> };
+      <br>
+      loadstring(game:HttpGetAsync("https://cxuic.000webhostapp.com/Website/raw/[1]"))()
+    </h1>
+  </body>
+</html>
+
+<script type="text/javascript">
+    document.oncontextmenu = function() {
+        return false;
+    }
+</script>
